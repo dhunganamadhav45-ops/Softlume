@@ -1,0 +1,464 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="Softlume - Premium IT Solutions for modern businesses. Custom software, cloud infrastructure, and AI-driven growth.">
+    <title>Softlume | Innovative IT Solutions & Digital Transformation</title>
+    <!-- Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700;800&display=swap" rel="stylesheet">
+    <link rel="stylesheet" href="style.css">
+    <!-- Lucide Icons for professional look -->
+    <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body>
+    <!-- Navigation -->
+    <header class="navbar" id="navbar">
+        <div class="container">
+            <a href="#" class="logo">
+                <img src="SOFTLUME LOGO.png" alt="Softlume Logo">
+            </a>
+            <nav class="nav-links" id="nav-links">
+                <a href="#home" class="nav-link">Home</a>
+                <a href="#services" class="nav-link">Services</a>
+                <a href="#about" class="nav-link">About</a>
+                <a href="#projects" class="nav-link">Projects</a>
+                <a href="#process" class="nav-link">Process</a>
+                <a href="#contact" class="nav-link">Contact</a>
+            </nav>
+            <div class="nav-actions">
+                <button class="quote-btn" onclick="scrollToSection('contact')">Consult Now</button>
+                <button class="menu-toggle" id="menu-toggle">
+                    <i data-lucide="menu"></i>
+                </button>
+            </div>
+        </div>
+    </header>
+
+    <main>
+        <!-- Hero Section -->
+        <section id="home" class="hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="text-gradient">Transforming Ideas Into <br>Scalable Digital Reality</h1>
+                    <p>Softlume engineers high-performance software, cloud architectures, and AI solutions that empower enterprises to lead in the digital age.</p>
+                    <div class="hero-actions">
+                        <button class="btn btn-primary" onclick="scrollToSection('services')">Our Solutions</button>
+                        <button class="btn btn-secondary" onclick="scrollToSection('contact')">Get Started</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+        <!-- Services Section -->
+        <section id="services" class="section">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <h2 class="text-gradient">Elite IT Services</h2>
+                    <p>Comprehensive solutions tailored for complex business challenges.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="code-2"></i></div>
+                        <h3>Custom Software</h3>
+                        <p>Enterprise-grade software tailored to your specific operational needs and scaling requirements.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="cloud"></i></div>
+                        <h3>Cloud Infrastructure</h3>
+                        <p>Secure, resilient, and optimized cloud environments architected for high availability.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="shield-check"></i></div>
+                        <h3>Cybersecurity</h3>
+                        <p>Advanced threat detection and data protection layers to safeguard your digital assets.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="brain-circuit"></i></div>
+                        <h3>Data & AI</h3>
+                        <p>Harness the power of machine learning and big data to drive intelligent business decisions.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="smartphone"></i></div>
+                        <h3>Mobile Mobility</h3>
+                        <p>High-performance native and cross-platform mobile applications with seamless UX.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="globe"></i></div>
+                        <h3>Web Systems</h3>
+                        <p>Robust, scalable web platforms designed for heavy traffic and complex integrations.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- About Section -->
+        <section id="about" class="section">
+            <div class="container">
+                <div class="about-wrapper">
+                    <div class="about-image">
+                        <img src="it_solutions_feature_1775893284700.png" alt="Professional IT Team">
+                    </div>
+                    <div class="about-content">
+                        <span class="text-gradient font-bold uppercase tracking-wider">About Softlume</span>
+                        <h2>Architecting the Digital Future</h2>
+                        <p>Softlume was founded on a single principle: that technology should be a catalyst for business growth, not a bottleneck. We have evolved into a full-scale digital transformation partner, providing world-class engineering to global industries.</p>
+                        
+                        <div class="about-highlights mb-4">
+                            <div class="highlight-item">
+                                <strong>Technical Pedigree</strong>
+                                <p>Our team consists of senior architects and engineers from world-class tech firms, bringing global expertise to every project.</p>
+                            </div>
+                            <div class="highlight-item">
+                                <strong>Global Impact</strong>
+                                <p>We have successfully deployed enterprise systems across 15+ countries, serving industries from Fintech to Healthcare.</p>
+                            </div>
+                        </div>
+
+                        <div class="feature-list">
+                            <div class="feature-item"><i data-lucide="shield-check"></i> Enterprise Data Security</div>
+                            <div class="feature-item"><i data-lucide="refresh-cw"></i> Continuous Deployment</div>
+                            <div class="feature-item"><i data-lucide="users"></i> Dedicated Engineering Squads</div>
+                            <div class="feature-item"><i data-lucide="award"></i> Certified AWS/Azure Partners</div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Foundation Section (Vision/Mission) -->
+        <section class="section bg-surface">
+            <div class="container">
+                <div class="text-center">
+                    <h2 class="text-gradient">Our Strategic Foundation</h2>
+                    <p>Driving the future of technology with purpose and precision.</p>
+                </div>
+                <div class="foundation-grid">
+                    <div class="foundation-card">
+                        <i data-lucide="eye"></i>
+                        <h3>Our Vision</h3>
+                        <p>To be the world's most trusted partner in digital evolution, setting the benchmark for technical excellence and human-centric innovation.</p>
+                    </div>
+                    <div class="foundation-card">
+                        <i data-lucide="target"></i>
+                        <h3>Our Mission</h3>
+                        <p>To empower businesses by engineering robust digital ecosystems that solve complex challenges and accelerate sustainable growth.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Core Values Section -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <h2 class="text-gradient">Our Core Values</h2>
+                    <p>Building success on a foundation of integrity and excellence.</p>
+                </div>
+                <div class="services-grid">
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="award"></i></div>
+                        <h3>Excellence</h3>
+                        <p>We settle for nothing less than technical perfection in every project we deliver.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="shield"></i></div>
+                        <h3>Integrity</h3>
+                        <p>Radical transparency and ethical practices are at the heart of our client relationships.</p>
+                    </div>
+                    <div class="service-card">
+                        <div class="service-icon"><i data-lucide="zap"></i></div>
+                        <h3>Agility</h3>
+                        <p>We move fast, adapt quickly, and deliver value at high velocity.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Case Studies Section -->
+        <section id="projects" class="section">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <span class="text-gradient font-bold uppercase tracking-wider">Our Portfolio</span>
+                    <h2>Engineering Success Stories</h2>
+                    <p>A glimpse into the complex digital ecosystems we've architected for global leaders.</p>
+                </div>
+                <div class="projects-grid">
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="project_fintech_dashboard.png" alt="Fintech Dashboard Project">
+                            <div class="project-overlay">
+                                <h3>NextGen Fintech</h3>
+                                <p>Real-time analytics & asset management platform.</p>
+                                <span class="tag">Fintech</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="project_mobile_app.png" alt="Mobile Ecosystem Project">
+                            <div class="project-overlay">
+                                <h3>Swift Mobility</h3>
+                                <p>High-performance cross-platform mobile ecosystem.</p>
+                                <span class="tag">Mobile</span>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-image">
+                            <img src="project_cloud_infra.png" alt="Cloud Infrastructure Project">
+                            <div class="project-overlay">
+                                <h3>Cloud Nexus</h3>
+                                <p>Auto-scaling global cloud infrastructure deployment.</p>
+                                <span class="tag">Cloud</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Process Section -->
+        <section id="process" class="section bg-surface">
+            <div class="container text-center">
+                <span class="text-gradient font-bold uppercase tracking-wider">Our Workflow</span>
+                <h2 class="mb-8">How We Deliver Excellence</h2>
+                <div class="process-grid">
+                    <div class="process-step">
+                        <div class="step-num">01</div>
+                        <h3>Discovery</h3>
+                        <p>We analyze your business requirements and define clear strategic goals.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-num">02</div>
+                        <h3>Architecture</h3>
+                        <p>Our engineers design scalable systems tailored for long-term growth.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-num">03</div>
+                        <h3>Development</h3>
+                        <p>Agile execution with continuous feedback and iterative improvements.</p>
+                    </div>
+                    <div class="process-step">
+                        <div class="step-num">04</div>
+                        <h3>Deployment</h3>
+                        <p>Rigorous testing followed by seamless integration and launch.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- FAQ Section -->
+        <section class="section">
+            <div class="container">
+                <div class="text-center mb-8">
+                    <h2 class="text-gradient">Frequently Asked Questions</h2>
+                </div>
+                <div class="faq-grid">
+                    <div class="faq-card">
+                        <h4>What is your typical project timeline?</h4>
+                        <p>Timelines vary based on complexity, but most enterprise solutions are delivered within 12-16 weeks using our agile sprint methodology.</p>
+                    </div>
+                    <div class="faq-card">
+                        <h4>Do you provide ongoing technical support?</h4>
+                        <p>Yes, we offer comprehensive post-launch SLA agreements including 24/7 monitoring, security updates, and performance tuning.</p>
+                    </div>
+                    <div class="faq-card">
+                        <h4>Is my data secure with your cloud solutions?</h4>
+                        <p>Absolutely. We implement military-grade encryption and comply with global standards like GDPR, SOC2, and HIPAA.</p>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Contact Section -->
+        <section id="contact" class="section">
+            <div class="container">
+                <div class="contact-container">
+                    <div class="contact-info">
+                        <h2 class="mb-4">Let's Build the Future</h2>
+                        <p class="mb-8">Ready to accelerate your business? Contact our solutions experts for a technical consultation.</p>
+                        <div class="info-items">
+                            <div class="mb-4">
+                                <strong>Location</strong>
+                                <p>Sydney, Australia</p>
+                            </div>
+                            <div class="mb-4">
+                                <strong>Email</strong>
+                                <p>info.softlume@gmail.com</p>
+                            </div>
+                            <div class="mb-4">
+                                <strong>Phone</strong>
+                                <p>+61 420 455 105</p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="contact-form">
+                        <form id="contactForm">
+                            <div class="form-group">
+                                <label for="name">Full Name</label>
+                                <input type="text" id="name" class="form-input" placeholder="Alexander Pierce" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="email">Work Email</label>
+                                <input type="email" id="email" class="form-input" placeholder="alex@company.com" required>
+                            </div>
+                            <div class="form-group">
+                                <label for="service">Interested Service</label>
+                                <select id="service" class="form-input">
+                                    <option value="software">Custom Software</option>
+                                    <option value="cloud">Cloud Solutions</option>
+                                    <option value="cyber">Cybersecurity</option>
+                                    <option value="ai">AI & Data</option>
+                                </select>
+                            </div>
+                            <div class="form-group">
+                                <label for="message">Project Overview</label>
+                                <textarea id="message" class="form-input" rows="4" placeholder="Briefly describe your requirements..."></textarea>
+                            </div>
+                            <button type="submit" class="btn-submit">Send Inquiry →</button>
+                        </form>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <!-- Footer -->
+    <footer class="footer">
+        <div class="container">
+            <div class="footer-grid">
+                <div class="footer-col">
+                    <img src="SOFTLUME LOGO.png" alt="Softlume Logo" style="height: 40px;" class="mb-4">
+                    <p>Empowering global enterprises with cutting-edge technology solutions since 2016.</p>
+                </div>
+                <div class="footer-col">
+                    <h4>Solutions</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Software Engineering</a></li>
+                        <li><a href="#">Cloud Migration</a></li>
+                        <li><a href="#">AI Strategy</a></li>
+                        <li><a href="#">Cyber Defense</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Company</h4>
+                    <ul class="footer-links">
+                        <li><a href="#">Our Journey</a></li>
+                        <li><a href="#">Sustainability</a></li>
+                        <li><a href="#">Careers</a></li>
+                        <li><a href="#">Media Kit</a></li>
+                    </ul>
+                </div>
+                <div class="footer-col">
+                    <h4>Connect</h4>
+                    <p>Subscribe to our newsletter for tech insights.</p>
+                    <div style="display: flex; gap: 10px; margin-top: 15px;">
+                        <input type="email" class="form-input" placeholder="Email addr">
+                        <button class="btn btn-primary" style="padding: 0 1rem;">GO</button>
+                    </div>
+                </div>
+            </div>
+            <div class="footer-bottom">
+                <p>&copy; Softlume IT Solutions. All Rights Reserved.</p>
+                <div style="display: flex; gap: 20px;">
+                    <a href="#">Privacy</a>
+                    <a href="#">Terms</a>
+                </div>
+            </div>
+        </div>
+    </footer>
+
+    <script>
+        // Initialize Lucide Icons
+        lucide.createIcons();
+
+        // Navbar Scroll Effect
+        window.addEventListener('scroll', () => {
+            const navbar = document.getElementById('navbar');
+            if (window.scrollY > 50) {
+                navbar.classList.add('scrolled');
+            } else {
+                navbar.classList.remove('scrolled');
+            }
+        });
+
+        // Smooth Scroll Function
+        function scrollToSection(id) {
+            const element = document.getElementById(id);
+            if (element) {
+                window.scrollTo({
+                    top: element.offsetTop - 80,
+                    behavior: 'smooth'
+                });
+            }
+        }
+
+        // Contact Form Submission
+        document.getElementById('contactForm').addEventListener('submit', async function(e) {
+            e.preventDefault();
+            const submitBtn = this.querySelector('button');
+            submitBtn.innerText = 'Processing...';
+            submitBtn.disabled = true;
+
+            const formData = {
+                first_name: document.getElementById('name').value.split(' ')[0] || '',
+                last_name: document.getElementById('name').value.split(' ')[1] || '',
+                email: document.getElementById('email').value,
+                phone: 'Not Provided',
+                service: document.getElementById('service').value,
+                message: document.getElementById('message').value
+            };
+
+            try {
+                const response = await fetch('contact.php', {
+                    method: 'POST',
+                    headers: { 'Content-Type': 'application/json' },
+                    body: JSON.stringify(formData)
+                });
+                
+                const result = await response.json();
+                if (result.success) {
+                    alert('Consultation request sent successfully!');
+                    this.reset();
+                } else {
+                    alert('Submission error: ' + result.error);
+                }
+            } catch (error) {
+                alert('Connection error. Please try again later.');
+            } finally {
+                submitBtn.innerText = 'Send Inquiry →';
+                submitBtn.disabled = false;
+            }
+        });
+
+        // Mobile Menu Logic
+        const menuBtn = document.getElementById('menu-toggle');
+        const navList = document.getElementById('nav-links');
+
+        menuBtn.addEventListener('click', () => {
+            navList.classList.toggle('active');
+            const icon = menuBtn.querySelector('i');
+            if (navList.classList.contains('active')) {
+                icon.setAttribute('data-lucide', 'x');
+            } else {
+                icon.setAttribute('data-lucide', 'menu');
+            }
+            lucide.createIcons();
+        });
+
+        document.querySelectorAll('.nav-link').forEach(link => {
+            link.addEventListener('click', () => {
+                navList.classList.remove('active');
+                const icon = menuBtn.querySelector('i');
+                icon.setAttribute('data-lucide', 'menu');
+                lucide.createIcons();
+            });
+        });
+    </script>
+</body>
+</html>
